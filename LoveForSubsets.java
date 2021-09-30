@@ -1,3 +1,7 @@
+/*
+Love For Subsets. See the problem statement above in description
+*/
+
 package com.problems;
 import java.util.Scanner;
 
