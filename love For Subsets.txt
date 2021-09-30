@@ -1,0 +1,34 @@
+standard input/output: 1s/128000 kB
+
+Given a positive integer N, we define the set AN as {1, 2, 3, ... N-1, N}.
+
+Find the size of the largest subset of AN, such that if x belongs to the subset, then 2x does not belong to the subset.
+Input
+The first line of the input contains a single integer T — the number of test cases.
+Each test case consists of one line containing a single integer N.
+
+Constraints:
+1 ≤ T ≤ 105
+1 ≤ N ≤ 109
+Output
+For each test case, print one integer — the size of the largest subset of AN satisfying the condition in the problem statement.
+
+
+Sample Input:
+4
+1
+2
+3
+4
+
+Sample Output:
+1
+1
+2
+3
+
+Explanation:
+For test case 4, where N = 4, the subset {1, 3, 4} is the largest subset satisfying the conditions.
+1 is in the subset whereas 2 is not.
+3 is in the subset whereas 6 is not.
+4 is in the subset whereas 8 is not.
